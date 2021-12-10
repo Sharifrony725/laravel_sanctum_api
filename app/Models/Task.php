@@ -14,4 +14,12 @@ class Task extends Model
         'user_id'
 
     ];
+
+    public static function create(array $inputs)
+    {
+    }
+
+    public static function where(string $string, $id)
+    {
+    }
 }
